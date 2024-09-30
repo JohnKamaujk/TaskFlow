@@ -85,7 +85,7 @@ export default function StoreProvider({
     storeRef.current = makeStore();
     setupListeners(storeRef.current.dispatch);
   }
-  
+
   const persistor = persistStore(storeRef.current);
 
   return (

@@ -1,8 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import React from "react";
+import StoreProvider from "./redux";
 
-const DashboardWrapper = ({ children }: { children: React.ReactNode }) => {
+const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <div className="flex min-h-screen w-full bg-gray-50 text-gray-900">
@@ -14,6 +15,14 @@ const DashboardWrapper = ({ children }: { children: React.ReactNode }) => {
         </main>
       </div>
     </div>
+  );
+};
+
+const DashboardWrapper = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <StoreProvider>
+      <DashboardLayout>{children}</DashboardLayout>
+    </StoreProvider>
   );
 };
 
