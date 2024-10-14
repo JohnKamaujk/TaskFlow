@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 
 app.use("/projects", projectRoutes);
 app.use("/tasks", taskRoutes);
-app.use("/serach", searchRoutes);
+app.use("/search", searchRoutes);
 
 /* SERVER LISTEN  */
 const port = process.env.PORT || 3000;
