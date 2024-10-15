@@ -10,6 +10,6 @@ export const getUsers = async (req: Request, res: Response): Promise<void> => {
   } catch (error: any) {
     res
       .status(500)
-      .json({ message: `Error retrieving projects: ${error.message}` });
+      .json({ message: `Error retrieving users: ${error.message}` });
   }
 };
