@@ -1,0 +1,17 @@
+server/node_modules
+server/dist/
+server/.env
+# dependencies
+client/node_modules
+
+# next.js
+client/.next/
+
+# production
+client/dist/
+
+# local env files
+client/.env*.local
+
+# typescript
+client/next-env.d.ts
