@@ -29,9 +29,9 @@ Key frameworks and tools used to develop Taskflow:
 
 * [![Next.js][Next.js]][Next-url]
 * [![Express][Express.js]][Express-url]
-* [![Prisma][Prisma.dev]][Prisma-url]
-* [![PostgreSQL][PostgreSQL.dev]][PostgreSQL-url]
-* [![TypeScript.dev][TypeScript]][TypeScript-url]
+* [![Prisma][Prisma]][Prisma-url]
+* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
+* [![TypeScript][TypeScript]][TypeScript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
